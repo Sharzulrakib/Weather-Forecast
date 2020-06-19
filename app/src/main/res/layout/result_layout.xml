@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/blurry_sky"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="City : "
+        android:textStyle="italic"
+        android:textColor="#00000f" />
+
+    <TextView
+        android:id="@+id/Locationid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+
+        android:textSize="40dp"
+        android:textColor="#00000f" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:text="Description : "
+        android:textColor="#00000f"/>
+
+    <TextView
+        android:id="@+id/Descriptionid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description_value"
+        android:textSize="40dp"
+        android:textColor="#00000f"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temp : "
+        android:textStyle="italic"
+        android:textColor="#00000f"/>
+
+    <TextView
+        android:id="@+id/Tempid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_value"
+        android:textSize="40dp"
+        android:textColor="#00000f"/>
+
+
+</LinearLayout>

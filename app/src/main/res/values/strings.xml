@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="textview_london">Click to View Weather</string>
+    <string name="description">description</string>
+    <string name="textview">TextView</string>
+    <string name="description_value">TextView</string>
+    <string name="temp_value">TextView</string>
+
+</resources>
